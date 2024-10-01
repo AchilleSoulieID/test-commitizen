@@ -1,8 +1,0 @@
-[tool.commitizen]
-name = "cz_conventional_commits"
-version = "0.2.0"
-tag_format = "database-v$version"
-version_files = [
-  "./pyproject.toml:tool.poetry.version",
-]
-

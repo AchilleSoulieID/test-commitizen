@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "folding-database"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["AchilleSoulieID <a.soulie@instadeep.com>"]
 readme = "README.md"
@@ -15,3 +15,12 @@ commitizen = "^3.29.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.3.0"
+tag_format = "database-v$version"
+version_files = [
+  "pyproject.toml:^version",
+]
